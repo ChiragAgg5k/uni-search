@@ -1,0 +1,61 @@
+C++
+1.Arrays
+In C++, an array is a collection of elements of the same data type, grouped together under a single identifier. Arrays provide a way to store and access multiple values of the same type using a single variable name. Each element in the array is accessed by its index, which starts from 0.
+
+Arrays in C++ have a fixed size, meaning that once an array is declared, its size cannot be changed during runtime. The elements of an array are stored in contiguous memory locations, which allows for efficient and direct access to individual elements.
+
+The declaration of an array in C++ involves specifying the data type of its elements, followed by the array name and the size of the array in square brackets. For example:
+int numbers[5]; // declares an integer array named 'numbers' with a size of 5
+Arrays can be initialized at the time of declaration or later in the program. Elements of an array can be accessed using the array index, such as `numbers[0]`, `numbers[1]`, and so on.
+
+It's important to note that arrays in C++ do not perform bounds checking, so accessing an element outside the valid index range may lead to undefined behavior. Additionally, C++ provides various ways to work with arrays, including array operations, loops, and pointers, allowing for versatile manipulation of array elements.
+
+
+
+
+
+
+
+
+
+2.Stack
+In C++, a stack is a data structure that follows the Last In, First Out (LIFO) principle, meaning that the last element added to the stack is the first one to be removed. It is a dynamic data structure with a fixed size, and elements are added and removed from the top of the stack.
+
+A stack can be thought of as a collection of elements with two main operations: push and pop. The push operation adds an element to the top of the stack, and the pop operation removes the element from the top.
+
+Stacks are commonly used in various applications, such as managing function calls and recursion in programming, undo mechanisms in applications, parsing expressions, and tracking execution history. The simplicity and efficiency of stack operations make it a versatile and widely used data structure in programming and computer science.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3.Queue
+In C++, a queue is a data structure that follows the First-In-First-Out (FIFO) principle, meaning that the first element added to the queue will be the first one to be removed. It can be visualized as a linear collection of elements with two main operations: enqueue and dequeue.
+
+a) Enqueue: This operation adds an element to the back of the queue, commonly referred to as the "rear" or "tail" of the queue.
+
+b) Dequeue: This operation removes the element from the front of the queue, commonly referred to as the "front" or "head" of the queue.
+
+Queues are useful for scenarios where elements need to be processed in a sequential order, such as in breadth-first search algorithms, managing tasks in a printer queue, or handling requests in a network.
+
+In C++, the standard template library (STL) provides a queue container that encapsulates the basic functionality of a queue. The `std::queue` class is part of the `<queue>` header and is typically implemented as a wrapper around other container classes, like `std::deque` or `std::list`.
+
+Queues are essential in scenarios where the order of processing is crucial, and their straightforward nature makes them a valuable tool in various programming situations.
+
+
+
+
+
+
+
+
